@@ -1,0 +1,27 @@
+body{
+    font-family: 'Pacifico', ;
+}
+
+
+h1{
+    font-size: 55px;
+    
+}
+.n-highlight{
+    color: slategrey;
+}
+p{
+    font-family: 'Knewave', ;
+    color: rgba(62, 70, 28, 0.952);
+}
+h3{
+    color: chocolate;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.half-width img{
+    width: 100%;
+}
