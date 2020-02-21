@@ -1,5 +1,6 @@
 body{
     font-family: 'Pacifico', ;
+    margin: 0px;
 }
 
 
@@ -8,20 +9,53 @@ h1{
     
 }
 .n-highlight{
-    color: slategrey;
+    color: rgba(26, 202, 64, 0.767);
 }
 p{
     font-family: 'Knewave', ;
-    color: rgba(62, 70, 28, 0.952);
+    color: rgb(0, 0, 0);
 }
 h3{
     color: chocolate;
 }
 .half-width{
-    width: 40%;
+    width: 38%;
     float: left;
-    margin-left: 5%;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+.lhalf-width img{
+        width: 95%;
+        float: left;
+        margin-left: 0px;
+}
+.lhalf-width{
+    width: 38%;
+    margin-left: 12%;
+    margin-top: 7%;
+    margin-bottom: 2%;
+    float: right;
 }
 .half-width img{
-    width: 100%;
+        width: 100%;
 }
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-color:orange;
+    background-image: linear-gradient(rgba(231, 187, 41, 0.836),rgba(255, 255, 0, 0.836));
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: rgba(31, 9, 59, 0.603);
+    font-weight: 600;
+    
+}
+.m-highlight{
+    color: rgba(202, 26, 70, 0.63);
